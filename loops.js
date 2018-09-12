@@ -10,7 +10,7 @@ function forLoop(array) {
     }
     else if (i < 25) {
       myNewArray = myArray.push(`'I am ${i} strange loops.'`);
-      return myNewArray;
+      console.log(myNewArray);
     }
   }
 }
