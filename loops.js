@@ -13,4 +13,4 @@ function forLoop(array) {
   }
 }
 
-forLoop(myArray)
+forLoop(myArray);
