@@ -11,5 +11,6 @@ function forLoop(array) {
       console.log(`'I am ${i} strange loops.'`);
     }
   }
-  myArray.push(`'I am ${i} strange loop'`)
 }
+
+forLoop(myArray)
