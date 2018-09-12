@@ -5,11 +5,11 @@ function forLoop(array) {
       return '';
     }
     else if (i === 1) {
-      myArray.push(`'I am ${i} strange loop'`);
-      return myArray;
+      myArray = myNewArray.push(`'I am ${i} strange loop'`);
+      return myNewArray;
     }
     else if (i < 25) {
-      myArray.push(`'I am ${i} strange loops.'`);
+      myNewArray = myArray.push(`'I am ${i} strange loops.'`);
       return myArray;
     }
   }
