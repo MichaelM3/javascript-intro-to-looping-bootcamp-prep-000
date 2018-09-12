@@ -5,12 +5,10 @@ function forLoop(array) {
       return '';
     }
     else if (i === 1) {
-      myNewArray = myArray.push(`'I am ${i} strange loop'`);
-      console.log(myNewArray);
+      myArray.push(`'I am ${i} strange loop'`);
     }
-    else if (i < 25) {
-      mySecondArray = myArray.push(`'I am ${i} strange loops.'`);
-      console.log(mySecondArray);
+    else {
+      myArray.push(`'I am ${i} strange loops.'`);
     }
   }
 }
