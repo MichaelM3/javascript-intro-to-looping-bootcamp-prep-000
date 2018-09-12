@@ -1,7 +1,11 @@
 function forLoop(array) {
-  myArray = {}
+  myArray = {};
   for (let i = 0; i < 25; i++) {
-    if (i === 0) 
-    console.log(`'I am ${i} strange)
+    if (i === 0) {
+      return null;
+    }
+    else (i === 1) {
+      console.log(`'I am ${i} strange loop.'`)
+    }
   }
 }
