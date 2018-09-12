@@ -4,8 +4,11 @@ function forLoop(array) {
     if (i === 0) {
       return null;
     }
-    else (i === 1) {
-      console.log(`'I am ${i} strange loop.'`)
+    else if (i === 1) {
+      console.log(`'I am ${i} strange loop.'`);
+    }
+    else if (i < 25) {
+      console.log(`'I am ${i} strange loops.'`);
     }
   }
 }
