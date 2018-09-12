@@ -6,6 +6,7 @@ function forLoop(array) {
     }
     else if (i === 1) {
       myArray.push(`'I am ${i} strange loop'`);
+      return myArray
     }
     else if (i < 25) {
       console.log(`'I am ${i} strange loops.'`);
