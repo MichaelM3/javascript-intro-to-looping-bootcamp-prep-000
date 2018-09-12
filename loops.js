@@ -9,8 +9,8 @@ function forLoop(array) {
       console.log(myNewArray);
     }
     else if (i < 25) {
-      myNewArray = myArray.push(`'I am ${i} strange loops.'`);
-      console.log(myNewArray);
+      mySecondArray = myArray.push(`'I am ${i} strange loops.'`);
+      console.log(mySecondArray);
     }
   }
 }
