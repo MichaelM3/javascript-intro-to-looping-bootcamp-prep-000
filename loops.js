@@ -10,5 +10,6 @@ function forLoop(array) {
     else {
       myArray.push(`'I am ${i} strange loops.'`);
     }
+    return myArray
   }
 }
