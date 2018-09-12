@@ -17,9 +17,9 @@ function whileLoop(n) {
   return 'done';
 }
 
-function doWhileLoop(array) {
+function incrementVariable() {
   
-  function incrementVariable() {
+  function  {
     array.length - 1;
   }
   
