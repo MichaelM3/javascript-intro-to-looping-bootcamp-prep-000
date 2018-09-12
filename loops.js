@@ -20,12 +20,12 @@ function whileLoop(n) {
 function doWhileLoop(array) {
   
   function incrementVariable() {
-    var i = array.length - 1
+    array.length - 1
   }
   
   do {
     incrementVariable();
     return (array);
   }
-  while (i > 0);
+  while (array.length > 0 && incrementVariable());
 } 
