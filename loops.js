@@ -6,7 +6,7 @@ function forLoop(array) {
     }
     else if (i === 1) {
       let first = `'I am ${i} strange loop.'`
-      
+      myArray.push(first)
     }
     else if (i < 25) {
       console.log(`'I am ${i} strange loops.'`);
