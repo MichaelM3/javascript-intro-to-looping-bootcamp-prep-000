@@ -13,5 +13,3 @@ function forLoop(array) {
     }
   }
 }
-
-forLoop(myArray);
