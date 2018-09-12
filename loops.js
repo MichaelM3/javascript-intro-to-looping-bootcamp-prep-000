@@ -5,6 +5,7 @@ function forLoop(array) {
       return '';
     }
     else if (i === 1) {
+      
       console.log(`'I am ${i} strange loop.'`);
     }
     else if (i < 25) {
